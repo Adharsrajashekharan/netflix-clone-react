@@ -1,0 +1,45 @@
+
+.t{
+    margin-left: 2%;
+    
+}
+
+.row{
+    color: rgb(255, 255, 255);
+    background-color: #111;
+    text-align: left;
+    font-size: 23px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.posters{
+    display: flex;
+    padding: 20px;
+    overflow-x: scroll;
+    overflow-y:hidden ;
+    background-color: #111;
+
+}
+
+.posters::-webkit-scrollbar{
+    display: none;
+}
+
+
+.poster{
+    cursor: pointer;
+    max-height: 250px;
+    margin-right: 10px;
+
+}
+.smallPoster{
+    cursor: pointer;
+    max-height: 150px;
+    margin-right: 10px;
+  
+}
+.poster:hover{
+    transform: scale(1.1);
+}
+
